@@ -19,13 +19,23 @@
 // mixed[2] = 15;
 // mixed[4] = "man";
 // console.log(mixed);
-var fname;
+//second part       ***************
+// let fname: string;
+// let age: number;
+// fname = "ali";
+// age = 46;
+// let numbers: (number | string)[] = [];
+// numbers.push("mah");
+// numbers.push(12);
+// // numbers.push();
+// console.log(numbers);
+// let person: object = { name: "ali", id: 16 };
+//third part         *************
 var age;
-fname = "ali";
-age = 46;
-var numbers = [];
-numbers.push("mah");
-numbers.push(12);
-// numbers.push();
-console.log(numbers);
-var person = { name: "ali", id: 16 };
+age = "mohammadreza";
+age = 23;
+age = true;
+var mixed = [];
+mixed.push("alireza");
+mixed.push(23);
+mixed.push(true);

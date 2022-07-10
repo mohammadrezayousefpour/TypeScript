@@ -31,18 +31,35 @@
 // mixed[4] = "man";
 // console.log(mixed);
 
-let fname: string;
-let age: number;
+//second part       ***************
 
-fname = "ali";
-age = 46;
+// let fname: string;
+// let age: number;
 
-let numbers: (number | string)[] = [];
+// fname = "ali";
+// age = 46;
 
-numbers.push("mah");
-numbers.push(12);
-// numbers.push();
+// let numbers: (number | string)[] = [];
 
-console.log(numbers);
+// numbers.push("mah");
+// numbers.push(12);
+// // numbers.push();
 
-let person: object = { name: "ali", id: 16 };
+// console.log(numbers);
+
+// let person: object = { name: "ali", id: 16 };
+
+//third part         *************
+
+let age: any;
+
+age = "mohammadreza";
+age = 23;
+
+age = true;
+
+let mixed: any[] = [];
+
+mixed.push("alireza");
+mixed.push(23);
+mixed.push(true);
